@@ -22,6 +22,14 @@ function PlayerState_Free(){
 
 	y += vSpeed;
 	
+	// Jumping 
+	if (place_meeting(x, y+1, obj_wall) && (key_jump))
+	{
+		
+		vSpeed = -7;
+	}
+	
+	
 	if (key_attack) state = PLAYERSTATE.ATTACKING;
 
 }

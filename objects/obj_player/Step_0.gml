@@ -1,6 +1,7 @@
 key_left = keyboard_check(ord("A"));
 key_right = keyboard_check(ord("D"));
-key_attack = keyboard_check_pressed(vk_space);
+key_jump = keyboard_check_pressed(vk_space);
+key_attack = keyboard_check(ord("Z"));
 
 switch (state)
 {

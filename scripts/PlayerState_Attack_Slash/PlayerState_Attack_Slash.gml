@@ -19,7 +19,7 @@ function PlayerState_Attack_Slash(){
 			{
 				with (hitID)
 				{
-					EnemyHit(20);
+					EnemyHit();
 				}
 			}
 		}
